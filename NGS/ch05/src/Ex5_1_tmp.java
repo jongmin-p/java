@@ -2,7 +2,6 @@
 public class Ex5_1_tmp {
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		int[] score = new int[5];
 		score[3] = 100;
 		
@@ -13,7 +12,7 @@ public class Ex5_1_tmp {
 		System.out.println("score[4] = " + score[4]);
 		System.out.println();
 		
-		int value = 100;
+		int value = score[3];
 		System.out.println("value = " + value);
 	}
 }
